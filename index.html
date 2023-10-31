@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive online portfolio website design</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        <header id="header">
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img decoding="async" src="assets/m5.jpg" style="margin-top: 20%;">
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#services">Softwares known</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#testimonials">Hobby</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#hireme" class="active">Hire me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">Manoj Kumar M</h1>
+                        <p class="text">
+                            Hello, I'm MK, a web front-end and back-end developer. I am currently working as a software developer at Wenoxo Technology Private Limited.
+                        </p>
+                        <a href="https://mk-universe.vercel.app/" class="btn">Download CV</a>
+                    </div>
+
+                    <div class="column-2 image">
+                        <img decoding="async" src="assets/manoj.jpg" class="img-element"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="service section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="The following ">Software I Know</h3>
+                    <p class="text"> I have sufficient knowledge in computer coding and mechanical design as well.</p>
+                </div>
+                <div class="cards">
+                    <div class="card-wrap">
+                        <div class="card" data-card="UI/UX">
+                            <div class="card-content">
+                                <img decoding="async" src="img/design-icon.png" class="icon">
+                                <h3 class="title-sm">Front-end Language</h3>
+                                <p class="text">I have sufficient development skills in front-end web development tools such as HTML, CSS, and JavaScript. </p>
+                                    <a href="" class="btn small">Read me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="Code">
+                            <div class="card-content">
+                                <img decoding="async" src="img/code-icon.png" class="icon">
+                                <h3 class="title-sm">Back-end Language</h3>
+                                <p class="text"> I have developed strong skills in Back-end web development using tools such as Node.js, Express.js, and MongoDB.
+                                </p>
+                                    <a href="" class="btn small">Read me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="App">
+                            <div class="card-content">
+                                <img decoding="async" src="img/app-icon.png" class="icon">
+                                <h3 class="title-sm">Mechanical Software</h3>
+                                <p class="text"> I have both knowledge and practical work experience in SolidWorks, a mechanical design software.</p>
+                                    <a href="" class="btn small">Read me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="portfolio section" id="portfolio">
+            <div class="background-bg">
+
+                <div class="container">
+                    <div class="section-header">
+                        <h3 class="title" data-title="My Works">Portfolio</h3>
+                    </div>
+
+                    <div class="section-body">
+                        <div class="filter">
+                            <button class="filter-btn active" data-filter="*" style="color: rgb(0, 4, 255);">All</button>
+                            <button class="filter-btn" data-filter=".ui" style="color: rgb(0, 4, 255);">Front-end</button>
+                            <button class="filter-btn" data-filter=".webdev" style="color: rgb(0, 4, 255);">Back-end</button>
+                            <button class="filter-btn" data-filter=".appdev" style="color: rgb(0, 4, 255);">Solidworks</button>
+                            <button class="filter-btn" data-filter=".logo" style="color: rgb(0, 4, 255);">Photoshop</button>
+                        </div>
+
+                        <div class="grid">
+                           <div class="grid-item logo">
+                               <div class="gallery-image">
+                                   <img decoding="async" src="img/port2.jpg" alt="">
+                                   <div class="img-overlay">
+                                       <div class="plus"></div>
+                                       <div class="img-description">
+                                           <h3>logo Design</h3>
+                                           <h5>View Demo</h5>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="grid-item webdev">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port3.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>App Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item ui webdev">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port4.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item ui">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port5.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>UI / UX Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item logo">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port1.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item appdev">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port6.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item logo appdev">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port9.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>App Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item appdev ui">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port8.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Mobile Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="grid-item  ui webdev">
+                            <div class="gallery-image">
+                                <img decoding="async" src="img/port7.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="more-folio">
+                        <a href="#" class="btn">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="space"></div>
+
+
+<!-- About me -->
+
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="WHO AM I">About Me</h3>
+                </div>
+
+                <div class="section-body grid-2">
+                    <div class="column-1">
+                        <h3 class="title-sm">Hello, </h3>
+                        <p class="text">
+                            I'm MK. I completed my undergraduate degree in the Mechanical field and worked as a mechanical design engineer for several months. I developed a strong interest in learning new things, which led me to transition into the web development field. I am now working as a web developer in a private limited company.
+                        </p>
+                        <div class="skills">
+                            <div class="skill html">
+                                <h3 class="skill-title">HTML:5</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill css">
+                                <h3 class="skill-title">CSS3</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill js">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill js">
+                                <h3 class="skill-title">Node.js</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill js">
+                                <h3 class="skill-title">MongoDB</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+
+                    <div class="column-2 image">
+                        <img decoding="async" src="img/about1.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="records">
+    <div class="overlay overlay-sm">
+        <img decoding="async" src="img/square.png" alt="" class="shape square1" />
+        <img decoding="async" src="img/square.png" alt="" class="shape square2" />
+        <img decoding="async" src="img/circle.png" alt="" class="shape circle" />
+        <img decoding="async" src="img/half-circle.png"alt=""class="shape half-circle"/>
+        <img decoding="async" src="img/wave.png" alt="" class="shape wave wave1" />
+        <img decoding="async" src="img/wave.png" alt="" class="shape wave wave2" />
+        <img decoding="async" src="img/x.png" alt="" class="shape xshape" />
+        <img decoding="async" src="img/triangle.png" alt="" class="shape triangle" />
+      </div>
+
+      <div class="container">
+        <div class="wrap">
+          <div class="record-circle active">
+            <h2 class="number" data-num="147">5+</h2>
+            <h4 class="sub-title">Projects</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="829" >2+</h2>
+            <h4 class="sub-title">Languages known</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="386">10-18</h2>
+            <h4 class="sub-title">Work Hour</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="454">5+</h2>
+            <h4 class="sub-title">Awards</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="blog section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title" data-title="latest News">My Blog</h3>
+                <p class="text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod farhan incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="blog-wrapper">
+
+                <div class="blog-wrap">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img decoding="async" src="img/blog2.png">
+                        </div>
+
+                        <div class="blog-content">
+                              <div class="blog-info">
+                                  <h5 class="blog-date">Jan, 12 2022</h5>
+                                  <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                              </div>
+                              <h3 class="title-sm">This is a short title</h3>
+                              <p class="blog-text">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut farhan et dolore magna aliqua.
+                              </p>
+                              <a href="" class="btn small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-wrap">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img decoding="async" src="img/blog1.png">
+                        </div>
+
+                        <div class="blog-content">
+                              <div class="blog-info">
+                                  <h5 class="blog-date">March, 09 2022</h5>
+                                  <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                              </div>
+                              <h3 class="title-sm">This is a short title</h3>
+                              <p class="blog-text">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut farhan et dolore magna aliqua.
+                              </p>
+                              <a href="" class="btn small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-wrap">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img decoding="async" src="img/blog3.png">
+                        </div>
+
+                        <div class="blog-content">
+                              <div class="blog-info">
+                                  <h5 class="blog-date">May, 21 2022</h5>
+                                  <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                              </div>
+                              <h3 class="title-sm">This is a short title</h3>
+                              <p class="blog-text">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                 incididunt ut farhan et dolore magna aliqua.
+                              </p>
+                              <a href="" class="btn small">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+<!-- Hobby -->
+
+<section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Fishing is my">Hobby</h3>
+      </div>
+
+      <div class="testi-content grid-2">
+        <div class="column-1 reviews">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                    This is a self-rating. I love fishes and I have various types of fish that I breed, groom, and sell online. I send high-quality fish to my customers, and the feedback I receive from them is positive. This motivates me to continue this hobby."
+
+                    I made several adjustments, such as adding "a" before "self-rating," fixing the spelling of "fish," and rephrasing some parts for clarity.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">MK FiSh HoBbIeSt</h3>
+                  <h5 class="review-job">Web developer and Fish lover</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Fugiat voluptate consequatur aut tenetur fugit error
+                  farhan quaerat ex odio rem?
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Romeo Herbert</h3>
+                  <h5 class="review-job">CEO, Munich</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate voluptatum enim nemo quod amet dolorum aliquam,
+                  farhan omnis eaque consectetur.
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Jack Costa</h3>
+                  <h5 class="review-job">Director of THR, London</h5>
+                </div>
+              </div>
+
+              <div class="swiper-slide review">
+                <i class="fas fa-quote-left quote"></i>
+                <div class="rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+
+                <p class="review-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Perspiciatis ab incidunt, dicta quam inventore ipsum
+                  farhan. Consectetur nam incidunt error!
+                </p>
+
+                <div class="review-info">
+                  <h3 class="review-name">Reiss Mccartney</h3>
+                  <h5 class="review-job">Engineer, San Francisco</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-nav swiper-button-prev">
+              <i class="fas fa-long-arrow-alt-left"></i>
+            </div>
+            <div class="review-nav swiper-button-next">
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-2 image">
+          <img decoding="async" src="img/testi.png" alt="" class="img-element" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3 class="title">Feel free to</h3>
+                <p class="text">
+                    These are my contact details. Feel free to reach out to me at any time to ask any questions about my profession.                </p>
+                <div class="information-wrap">
+                    <div class="information">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt" style="color: rgb(248, 177, 83);"></i>
+                        </div>
+                        <p class="info-text">Nagercoil, Tamilnadu, India.</p>
+                    </div>
+
+                    <div class="information">
+                        <div class="contact-icon" >
+                            <i class="fa fa-envelope" style="color: rgb(64, 42, 255);"></i>
+                        </div>
+                        <p class="info-text">manojmkm141098@gmail.com</p>
+                    </div>
+
+                    <div class="information">
+                        <div class="contact-icon" style="color: rgb(35, 241, 114);">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p class="info-text">+91 9629259354</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3 class="title">Contact me</h3>
+                <div class="row">
+                    <input type="text" class="contact-input" placeholder="First Name">
+                    <input type="text" class="contact-input" placeholder="Last Name">
+                </div>
+                <div class="row">
+                    <input type="text" class="contact-input" placeholder="Phone">
+                    <input type="text" class="contact-input" placeholder="Email">
+                </div>
+                <div class="row">
+                    <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+                </div>
+                <a href="#" class="btn">Send</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="hireme" id="hireme">
+    <div class="container">
+        <h3 class="title" data--title="Hire me">Let's talk about a project</h3>
+        <p class="text">
+            I've worked on three projects in this company. One was a fully static design, the second involved backend work, and the third was a mix of front-end and backend development.
+        </p>
+        <a href="#" class="btn">Hire Me...</a>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="grid-4">
+            <div class="grid-4-col footer-about">
+                <h3 class="title-sm">About</h3>
+                <p class="text">
+                    You can ask any questions about web development, and please consider <br>following my social media.                </p>
+            </div>
+
+            <div class="grid-4-col footer-links">
+                <h3 class="title-sm">Links</h3>
+                <ul>
+                    <li>
+                        <a href="#services">Software known</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="grid-4-col footer-links">
+                <h3 class="title-sm">Services</h3>
+                <ul>
+                    <li>
+                        <a href="#">Front-end</a>
+                    </li>
+                    <li>
+                        <a href="#">Back-end</a>
+                    </li>
+                    <li>
+                        <a href="#">Photoshop</a>
+                    </li>
+                    <li>
+                        <a href="#">Video Editing</a>
+                    </li>
+                    <li>
+                        <a href="#">Solidworks</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="grid-4-col footer-newsletter">
+                <h3 class="title-sm">Subscribe</h3>
+                <p class="text">Provide your mail here to subscribe</p>
+                <div class="footer-input-wrap">
+                    <input type="email" class="footer-input" placeholder="Email">
+                    <a href="#" class="input-arrow">
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="copyright">
+                <p class="text">
+                    <!-- Copyright&copy;2023 All rights reserved || Made By
+                    <span>Dailywebdesign</span> -->
+                </p>
+            </div>
+            <div class="followme-wrap">
+                <div class="followme">
+                    <h3>follow me</h3>
+                    <span class="footer-line"></span>
+                    <div class="social-media">
+                        <a href="https://github.com/Manojmkm/Manojmkm"><i class="fa-brands fa-github" style="color: rgb(0, 0, 0);"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100021233483432&mibextid=ZbWKwL"><i class="fab fa-facebook-f" style="color: rgb(2, 0, 114);"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-kumar-9a397018b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin" style="color: rgb(23, 75, 247);"></i></a>
+                        <a href="https://x.com/manoj50081?t=w7q9CX_WUC3FpqKNxtphVQ&s=08"><i class="fab fa-twitter" style="color: rgb(0, 172, 172);"></i></a>
+                        <a href="https://instagram.com/itsmemk88?igshid=YTQwZjQ0NmI0OA=="><i class="fab fa-instagram" style="color: rgb(255, 185, 240);"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="back-btn-wrap">
+                    <a href="#" class="back-btn">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</main>    
+<!-- <script src="main.js"></script>  -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer data-deferred="1"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <script src="isotope.pkgd.min.js" defer data-deferred="1"></script>  <script src="main.js" defer data-deferred="1"></script>
+</body>
+</html>
